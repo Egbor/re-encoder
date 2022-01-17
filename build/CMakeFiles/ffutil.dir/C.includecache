@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egor/PWDLab/Lab2/project/src/common/error.h
+
+/home/egor/PWDLab/Lab2/project/src/frame.c
+frame.h
+/home/egor/PWDLab/Lab2/project/src/frame.h
+common/error.h
+/home/egor/PWDLab/Lab2/project/src/common/error.h
+libavcodec/avcodec.h
+-
+stdlib.h
+-
+
+/home/egor/PWDLab/Lab2/project/src/frame.h
+
