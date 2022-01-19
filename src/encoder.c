@@ -115,7 +115,7 @@ void open_encoder_output_file(encoder_context_t* context, const char* filename) 
   if (!(outformat->flags & AVFMT_NOFILE)) {
     status = avio_open(&context->format_context->pb, filename, AVIO_FLAG_WRITE);
     if (status < 0) {
-      throw_error("Could not open output file.", status);
+      throw_error(/*"Could not open output file."*/av_err2str(status), status);
     }
   }
   

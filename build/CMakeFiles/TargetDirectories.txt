@@ -1,3 +1,0 @@
-/home/egor/PWDLab/Lab2/project/build/CMakeFiles/rebuild_cache.dir
-/home/egor/PWDLab/Lab2/project/build/CMakeFiles/edit_cache.dir
-/home/egor/PWDLab/Lab2/project/build/CMakeFiles/ffutil.dir

@@ -1,6 +1,7 @@
 #include "common/basename.h"
 #include "common/error.h"
 
+#include <libavformat/avformat.h>
 #include <stdlib.h>
 
 #include "decoder.h"
@@ -24,6 +25,8 @@ int main(int argc, char* argv[]) {
 
   float start_timestamp = (float)strtol(argv[2], NULL, 10);
   float end_timestamp = (float)strtol(argv[3], NULL, 10);
+  
+  av_register_all();
   
   decoder_open(&decoder_context, argv[1], start_timestamp, end_timestamp);
   encoder_open(&encoder_context, argv[4]);

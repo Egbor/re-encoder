@@ -54,7 +54,10 @@ void allocate_decoder_context(decoder_context_t** decoder_context) {
 }
 
 void open_decoder_format_context(decoder_context_t* decoder_context, const char* filename) {
-  avformat_open_input(&decoder_context->format_context, filename, NULL, NULL);
+  int status = avformat_open_input(&decoder_context->format_context, filename, NULL, NULL);
+  if (status < 0) {
+  	throw_error(/*"Could not open source file"*/av_err2str(status), status);
+  }
 }
 
 void open_decoder_codec_context(decoder_context_t* decoder_context, int media_type) {
