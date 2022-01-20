@@ -19,7 +19,7 @@ WORKDIR /ffutil
 
 COPY --from=build /ffutil/project/build/ffutil .
 
-RUN apt-get update && apt-get upgrade && \
+RUN apt-get -y update && apt-get -y upgrade && \
     apt-get -y install ffmpeg && \
     groupadd ffgroup && useradd -u 1000 -g ffgroup ffuser && \
     chown -R ffuser:ffgroup /ffutil
