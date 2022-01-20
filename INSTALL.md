@@ -6,10 +6,10 @@
 * 1. Type 'make run [INPUTDIR=][INPUTFILENAME=][OUTPUTFILENAME=][TIMESTAMP=]'
 
 ## Arguments:
-* INPUTDIR=<directory with input and output files>
-* INPUTFILENAME=<name of input file>
-* OUTPUTFILENAME=<name of output file>
-* TIMESTAMP=<from time in seconds to time in seconds>
+* 'INPUTDIR=' directory with input and output files
+* 'INPUTFILENAME=' name of input file
+* 'OUTPUTFILENAME=' name of output file
+* 'TIMESTAMP=' from time in seconds to time in seconds
 
 ## Default argument value:
 * INPUTDIR=~/
