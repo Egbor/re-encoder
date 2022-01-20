@@ -14,7 +14,7 @@
 ## Default argument value:
 * `INPUTDIR=~/`
 * `INPUTFILENAME=mando_test.mkv`
-* `OUTPUTFILENAME=mandu_test_cut.mkv`
+* `OUTPUTFILENAME=mando_test_cut.mkv`
 * `TIMESTAMP="0 60"`
 
 ## Examples:
