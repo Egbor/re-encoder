@@ -1,15 +1,15 @@
 # Build
-* 1. Type 'cd ./docker' to chnage the project directory to the build directory
-* 2. Then type 'make' to build 'ffutil' docker image
+* 1. Type `cd ./docker` to chnage the project directory to the build directory
+* 2. Then type `make` to build 'ffutil' docker image
 
 # Run
-* 1. Type 'make run [INPUTDIR=][INPUTFILENAME=][OUTPUTFILENAME=][TIMESTAMP=]'
+* 1. Type `make run [INPUTDIR=][INPUTFILENAME=][OUTPUTFILENAME=][TIMESTAMP=]`
 
 ## Arguments:
-* 'INPUTDIR=' directory with input and output files
-* 'INPUTFILENAME=' name of input file
-* 'OUTPUTFILENAME=' name of output file
-* 'TIMESTAMP=' from time in seconds to time in seconds
+* `INPUTDIR=` directory with input and output files
+* `INPUTFILENAME=` name of input file
+* `OUTPUTFILENAME=` name of output file
+* `TIMESTAMP=` from time in seconds to time in seconds
 
 ## Default argument value:
 * INPUTDIR=~/
@@ -24,4 +24,4 @@
 * make run INPUTFILENAME=input.mkv OUTPUTFILENAME=output.mkv
 
 # Run with shell
-* 1. Type 'make sh' to run a docker container with the utility in interactive mode
+* 1. Type `make sh` to run a docker container with the utility in interactive mode
